@@ -4,7 +4,7 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "python3-libs"
+name = "bjourne-py"
 version = "0.0.1"
 description = "My Python libraries"
 authors = [
@@ -18,13 +18,16 @@ readme = "README.md"
 license = {file = "LICENSE"}
 
 [project.urls]
-homepage = "https://github.com/bjourne/python3-libs"
+homepage = "https://github.com/bjourne/bjourne-py"
 
 [project.optional-dependencies]
 test = [
     "numpy",
     "pytest>=5.0.0"
 ]
+
+[tool.hatch.build.targets.wheel]
+packages = ["bjourne"]
 
 [tool.pylint.format]
 max-line-length = 80

@@ -1,6 +1,8 @@
-# python3-libs
+# bjourne-py
 
-This repository contains Python code I have written.
+This repository contains Python code I have written. Eventually I will
+move most of my code to the `bjourne` package to make it easy to
+install it.
 
 ## Packages
 
