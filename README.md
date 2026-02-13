@@ -28,7 +28,7 @@ Random modules.. Useful (I promise!) but random.
 
 Run the unit tests using:
 
-    python3 -m pytest
+    python -m pytest
 
 ## Installation
 
