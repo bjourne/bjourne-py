@@ -1,8 +1,6 @@
 # python3-libs
 
-This repository contains Python code I have written. Originally, I
-thought I should have repositories both for Python 2 and Python 3, but
-since I only code in Python 3 nowadays, one repository was enough.
+This repository contains Python code I have written.
 
 ## Packages
 
